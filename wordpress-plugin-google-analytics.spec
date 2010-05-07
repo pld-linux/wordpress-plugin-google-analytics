@@ -6,8 +6,10 @@ Release:	1
 License:	GPL
 Group:		Applications/Publishing
 URL:		http://wordpress.org/extend/plugins/google-analytics-for-wordpress/
-Source0:	http://downloads.wordpress.org/plugin/%{plugin}.zip
-# Source0-md5:	5390e83ad1fb0639f5496e067135abcf
+# Use DF or something. On each download it has new md5.
+# Source0:	http://downloads.wordpress.org/plugin/%{plugin}.zip
+Source0:	http://execve.pl/PLD/%{plugin}.zip
+# Source0-md5:	9c9abd877fc326d489a80eed40537847
 BuildRequires:	js
 BuildRequires:	unzip
 BuildRequires:	yuicompressor
